@@ -94,3 +94,4 @@ titanic_train.groupby(['Pclass', 'Sex']).size()
 titanic_train.groupby(['Embarked', 'Pclass']).mean()
 
 titanic_train.groupby(['Embarked', 'Pclass']).mean()['Fare']
+
